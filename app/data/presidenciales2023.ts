@@ -5,32 +5,47 @@ export const presidenciales2023: ProvinciaResult[] = [
    
   {
     provincia: "Santa Cruz",
-    electores: 265400,
-    participacion: 68.98,
-    mesasComputadas: 911,
+    electores: 35405013 ,
+    participacion: 67.83,
+    mesasComputadas: 104.532,
+    votantes:24016776,
+    votacion: {
+      positivos: 22539543,
+      blancos: 1148342,
+      nulos: 293041,
+      impugnados: 35850,
+    },
+    
+    
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 28.96, votos: 52189 },
-      { nombre: "Unión por la Patria", porcentaje: 21.35, votos: 38479 },
-      { nombre: "Juntos por el Cambio", porcentaje: 15.6, votos: 28111 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 2.04, votos: 3679 },
-      { nombre: "Frente de Izquierda y de Trabajadores - Unidad", porcentaje: 1.83, votos: 3294 },
-      { nombre: "Movimiento Libres del Sur", porcentaje: 0.34, votos: 607 },
-      { nombre: "Movimiento al Socialismo", porcentaje: 0.23, votos: 414 },
-      { nombre: "Política Obrera", porcentaje: 0.22, votos: 403 },
-      { nombre: "Movimiento Izquierda Juventud y Dignidad", porcentaje: 0.20, votos: 359 },
-      { nombre: "Frente Patriota Federal", porcentaje: 0.12, votos: 209 },
-      { nombre: "Movimiento de Acción Vecinal", porcentaje: 0.08, votos: 138 },
-      { nombre: "Principios y Valores", porcentaje: 0.04, votos: 65 },
-      { nombre: "Frente Liber.Ar", porcentaje: 0.01, votos: 12 },
-      { nombre: "Proyecto Joven", porcentaje: 0.00, votos: 4 },
-      { nombre: "Unión del Centro Democrático", porcentaje: 0.00, votos: 4 },
+      { nombre: "La Libertad Avanza", porcentaje: 30.04, votos: 7116352 },
+      { nombre: "Juntos por el Cambio", porcentaje: 28.28, votos: 6698029 },
+      { nombre: "Unión por la Patria", porcentaje: 27.27, votos: 6460689 },
+      { nombre: "Hacemos por Nuestro País", porcentaje: 3.83, votos: 907437 },
+      { nombre: "Frente de Izquierda y de Trabajadores - Unidad", porcentaje: 2.65, votos: 628893 },
+      { nombre: "Principios y Valores", porcentaje: 0.79, votos: 187893 },
+      { nombre: "Movimiento Libres del Sur", porcentaje: 0.65, votos: 154338 },
+      { nombre: "Movimiento al Socialismo", porcentaje: 0.36, votos: 85628 },
+      { nombre: "Movimiento Izquierda Juventud y Dignidad", porcentaje: 0.35, votos: 81972 },
+      { nombre: "Política Obrera", porcentaje: 0.26, votos: 62404 },
+      { nombre: "Frente Patriota Federal", porcentaje: 0.21, votos: 50842 },
+      { nombre: "Movimiento de Acción Vecinal", porcentaje: 0.18, votos: 42252 },
+      { nombre: "Frente Liber.Ar", porcentaje: 0.11, votos: 26962 },
+      { nombre: "Proyecto Joven", porcentaje: 0.10, votos: 23870 },
+      { nombre: "Unión del Centro Democrático", porcentaje: 0.05, votos: 11982 },
     ],
-  },
+  },  
   {
     provincia: "Chubut",
     electores: 474701,
     participacion: 68.08,
     mesasComputadas: 1416,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 39.41, votos: 124030 },
       { nombre: "Juntos por el Cambio", porcentaje: 24.34, votos: 76603 },
@@ -54,6 +69,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 595737,
     participacion: 68.59,
     mesasComputadas: 1790,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 37.3, votos: 148437 },
       { nombre: "Unión por la Patria", porcentaje: 26.7, votos: 106258 },
@@ -77,6 +98,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 553755,
     participacion: 74.08,
     mesasComputadas: 1670,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 39.05, votos: 156147 },
       { nombre: "Juntos por el Cambio", porcentaje: 22.82, votos: 91263 },
@@ -97,6 +124,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 300103,
     participacion: 68.52,
     mesasComputadas: 902,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 32.77, votos: 66280 },
       { nombre: "Juntos por el Cambio", porcentaje: 28.37, votos: 57387 },
@@ -120,6 +153,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 13115144,
     participacion: 67.88,
     mesasComputadas: 38074,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Unión por la Patria", porcentaje: 32.12, votos: 2831078 },
       { nombre: "Juntos por el Cambio", porcentaje: 29.14, votos: 2567840 },
@@ -143,6 +182,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 1494214,
     participacion: 70.92,
     mesasComputadas: 4357,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 44.8, votos: 466437 },
       { nombre: "Juntos por el Cambio", porcentaje: 28.25, votos: 294077 },
@@ -166,6 +211,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 421742,
     participacion: 68.19,
     mesasComputadas: 1311,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 47.85, votos: 135471 },
       { nombre: "Juntos por el Cambio", porcentaje: 23.52, votos: 66579 },
@@ -189,6 +240,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 3063956,
     participacion: 67.68,
     mesasComputadas: 9097,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 33.62, votos: 688684 },
       { nombre: "Hacemos por Nuestro País", porcentaje: 27.54, votos: 564182 },
@@ -212,6 +269,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 2822834,
     participacion: 66.79,
     mesasComputadas: 8332,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 35.2, votos: 646315 },
       { nombre: "Juntos por el Cambio", porcentaje: 31.58, votos: 579867 },
@@ -235,6 +298,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 1144216,
     participacion: 71.14,
     mesasComputadas: 3434,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Juntos por el Cambio", porcentaje: 32.11, votos: 257263 },
       { nombre: "Unión por la Patria", porcentaje: 29.03, votos: 232570 },
@@ -258,6 +327,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 2528223,
     participacion: 67.24,
     mesasComputadas: 7326,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Juntos por el Cambio", porcentaje: 48.32, votos: 813264 },
       { nombre: "Unión por la Patria", porcentaje: 23.59, votos: 397054 },
@@ -281,6 +356,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 608857,
     participacion: 70,
     mesasComputadas: 1810,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 34.17, votos: 143858 },
       { nombre: "Unión por la Patria", porcentaje: 29.05, votos: 122284 },
@@ -304,6 +385,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 304344,
     participacion: 63.31,
     mesasComputadas: 955,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 36.43, votos: 69607 },
       { nombre: "Unión por la Patria", porcentaje: 31.49, votos: 60160 },
@@ -326,6 +413,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 933441,
     participacion: 67.6,
     mesasComputadas: 2760,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Juntos por el Cambio", porcentaje: 34.28, votos: 213104 },
       { nombre: "B- La Fuerza del Cambio", porcentaje: 68.49, votos: 145964 },
@@ -353,6 +446,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 988884,
     participacion: 65.92,
     mesasComputadas: 2879,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 43.03, votos: 277899 },
       { nombre: "Unión por la Patria", porcentaje: 27.16, votos: 175370 },
@@ -376,6 +475,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 340478,
     participacion: 64.7,
     mesasComputadas: 1058,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Unión por la Patria", porcentaje: 40.24, votos: 87513 },
       { nombre: "La Libertad Avanza", porcentaje: 24.73, votos: 53778 },
@@ -399,6 +504,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 813802,
     participacion: 65.48,
     mesasComputadas: 2464,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Unión por la Patria", porcentaje: 53.29, votos: 280563 },
       { nombre: "La Libertad Avanza", porcentaje: 26.98, votos: 142042 },
@@ -422,6 +533,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 1321055,
     participacion: 73.09,
     mesasComputadas: 3919,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 35.95, votos: 342681 },
       { nombre: "Unión por la Patria", porcentaje: 32.85, votos: 313085 },
@@ -445,6 +562,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 1090792,
     participacion: 60.51,
     mesasComputadas: 3300,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 49.39, votos: 318910 },
       { nombre: "Unión por la Patria", porcentaje: 24.13, votos: 155837 },
@@ -468,6 +591,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 590695,
     participacion: 72.48,
     mesasComputadas: 1825,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "La Libertad Avanza", porcentaje: 39.84, votos: 168142 },
       { nombre: "Juntos por el Cambio", porcentaje: 23.79, votos: 100408 },
@@ -491,6 +620,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 482733,
     participacion: 66.14,
     mesasComputadas: 1484,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Unión por la Patria", porcentaje: 46.61, votos: 147592 },
       { nombre: "La Libertad Avanza", porcentaje: 25.50, votos: 80753 },
@@ -513,6 +648,12 @@ export const presidenciales2023: ProvinciaResult[] = [
     electores: 1001910,
     participacion: 62.92,
     mesasComputadas: 2947,
+    votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
     resultados: [
       { nombre: "Unión por la Patria", porcentaje: 34.65, votos: 216257 },
       { nombre: "A- Celeste y Blanca", porcentaje: 92.41, votos: 199837 },
@@ -556,6 +697,105 @@ export const presidenciales2023: ProvinciaResult[] = [
       { nombre: "Unión del Centro Democrático", porcentaje: 0.0, votos: 21 },
       { nombre: "A- Apertura Liberal Argentina", porcentaje: 100.0, votos: 21 },
     ],
+  },{
+    provincia: "Argentina",
+  electores: 35405013,
+  participacion: 67.83,
+  mesasComputadas: 104532,
+  votacion: {
+      positivos: 100,
+      blancos: 0,
+      nulos: 0,
+      impugnados: 0
+    },
+  resultados: [
+    { nombre: "LA LIBERTAD AVANZA", porcentaje: 30.04, votos: 7116352 },
+    { nombre: "A- LIBERTAD POR SIEMPRE", porcentaje: 100.0, votos: 7116352 },
+    { nombre: "JUNTOS POR EL CAMBIO", porcentaje: 28.28, votos: 6698029 },
+    { nombre: "B- LA FUERZA DEL CAMBIO", porcentaje: 60.05, votos: 4022466 },
+    { nombre: "A- EL CAMBIO DE NUESTRAS VIDAS", porcentaje: 39.95, votos: 2675563 },
+    { nombre: "UNION POR LA PATRIA", porcentaje: 27.27, votos: 6460689 },
+    { nombre: "A- CELESTE Y BLANCA", porcentaje: 78.48, votos: 5070104 },
+    { nombre: "B- JUSTA Y SOBERANA", porcentaje: 21.52, votos: 1390585 },
+    { nombre: "HACEMOS POR NUESTRO PAIS", porcentaje: 3.83, votos: 907437 },
+    { nombre: "A- HACEMOS", porcentaje: 100.0, votos: 907437 },
+    { nombre: "FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD", porcentaje: 2.65, votos: 628893 },
+    { nombre: "A- UNIR Y FORTALECER LA IZQUIERDA", porcentaje: 70.3, votos: 442085 },
+    { nombre: "B- UNIDAD DE LUCHADORES Y LA IZQUIERDA", porcentaje: 29.7, votos: 186808 },
+    { nombre: "PRINCIPIOS Y VALORES", porcentaje: 0.79, votos: 187893 },
+    { nombre: "1A- TIERRA, TECHO Y TRABAJO", porcentaje: 97.47, votos: 183135 },
+    { nombre: "2B- TRANSFORMAR", porcentaje: 1.35, votos: 2540 },
+    { nombre: "5E- LABORISTA", porcentaje: 0.93, votos: 1749 },
+    { nombre: "3C- TRES BANDERAS", porcentaje: 0.14, votos: 263 },
+    { nombre: "4D- GENTE DE TRABAJO", porcentaje: 0.11, votos: 206 },
+    { nombre: "MOVIMIENTO LIBRES DEL SUR", porcentaje: 0.65, votos: 154338 },
+    { nombre: "A- AZUL Y ROJO", porcentaje: 100.0, votos: 154338 },
+    { nombre: "MOVIMIENTO AL SOCIALISMO", porcentaje: 0.36, votos: 85628 },
+    { nombre: "A- IZQUIERDA ANTICAPITALISTA", porcentaje: 100.0, votos: 85628 },
+    { nombre: "MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD", porcentaje: 0.35, votos: 81972 },
+    { nombre: "B- CONFEDERAL", porcentaje: 68.59, votos: 56226 },
+    { nombre: "A- DIGNIDAD", porcentaje: 31.41, votos: 25746 },
+    { nombre: "POLITICA OBRERA", porcentaje: 0.26, votos: 62404 },
+    { nombre: "A- UNIDAD OBRERA", porcentaje: 100.0, votos: 62404 },
+    { nombre: "FRENTE PATRIOTA FEDERAL", porcentaje: 0.21, votos: 50842 },
+    { nombre: "A- PRIMERO LA PATRIA", porcentaje: 100.0, votos: 50842 },
+    { nombre: "MOVIMIENTO DE ACCION VECINAL", porcentaje: 0.18, votos: 42252 },
+    { nombre: "A- COMPROMISO VECINAL", porcentaje: 100.0, votos: 42252 },
+    { nombre: "FRENTE LIBER.AR", porcentaje: 0.11, votos: 26962 },
+    { nombre: "B- RECONQUISTA", porcentaje: 48.62, votos: 13109 },
+    { nombre: "A- DEMOS", porcentaje: 30.71, votos: 8281 },
+    { nombre: "C- ANTICORRUPCIÓN", porcentaje: 20.67, votos: 5572 },
+    { nombre: "PROYECTO JOVEN", porcentaje: 0.10, votos: 23870 },
+    { nombre: "A- COALICION PAZ DEMOCRACIA SOBERANIA", porcentaje: 49.18, votos: 11740 },
+    { nombre: "B- PATRIA UNIDA", porcentaje: 36.38, votos: 8684 },
+    { nombre: "C- TODEX", porcentaje: 14.44, votos: 3446 },
+    { nombre: "UNION DEL CENTRO DEMOCRATICO", porcentaje: 0.05, votos: 11982 },
+    { nombre: "A- APERTURA LIBERAL ARGENTINA", porcentaje: 100.0, votos: 11982 },
+  ],
   }
   
 ];
+export const partidoColor: Record<string, string> = {
+  "La Libertad Avanza": "#753abd",
+  "Unión por la Patria": "#019cde",
+  "Juntos por el Cambio": "#fedc01",
+  "Hacemos por Nuestro País": "#ffc107",
+  "Frente de Izquierda y de Trabajadores - Unidad": "#e60000",
+  "Movimiento Libres del Sur": "#00b894",
+  "Movimiento al Socialismo": "#ff5e00",
+  "Política Obrera": "#8b0000",
+  "Movimiento Izquierda Juventud y Dignidad": "#ff4500",
+  "Frente Patriota Federal": "#00008b",
+  "Movimiento de Acción Vecinal": "#008000",
+  "Principios y Valores": "#ffd700",
+  "Frente Liber.Ar": "#7b68ee",
+  "Proyecto Joven": "#ff69b4",
+  "Unión del Centro Democrático": "#808080",
+
+  // Sublistas
+  "B- La Fuerza del Cambio": "#00ced1",
+  "A- El Cambio de Nuestras Vidas": "#20b2aa",
+  "A- Celeste y Blanca": "#87ceeb",
+  "B- Justa y Soberana": "#f08080",
+  "A- Hacemos": "#ffc107",
+  "A- Unir y Fortalecer la Izquierda": "#e60000",
+  "B- Unidad de Luchadores y la Izquierda": "#ff9999",
+  "1A- Tierra, Techo y Trabajo": "#ffd700",
+  "2B- Transformar": "#daa520",
+  "3C- Tres Banderas": "#cd853f",
+  "5E- Laborista": "#f5deb3",
+  "4D- Gente de Trabajo": "#deb887",
+  "A- Izquierda Anticapitalista": "#b22222",
+  "B- Confederal": "#d2691e",
+  "A- Dignidad": "#ff6347",
+  "A- Unidad Obrera": "#8b0000",
+  "A- Primero la Patria": "#00008b",
+  "A- Compromiso Vecinal": "#556b2f",
+  "C- Anticorrupción": "#2e8b57",
+  "B- Reconquista": "#20b2aa",
+  "A- Demos": "#008b8b",
+  "A- Coalición Paz Democracia Soberanía": "#ff69b4",
+  "B- Patria Unida": "#ba55d3",
+  "C- TODEX": "#dda0dd",
+  "A- Apertura Liberal Argentina": "#808080",
+};

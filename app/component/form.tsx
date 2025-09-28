@@ -1,8 +1,10 @@
 "use client";
 
-import { useState } from "react";
+interface FormProps {
+  setProvincia: (prov: string) => void;
+}
 
-export default function Form() {
+export default function Form({setProvincia}:FormProps) {
 
 
 
@@ -21,10 +23,10 @@ export default function Form() {
 
         <div className="flex">
           <h1 className="p-2 pr-5" >Resultados:</h1>
-          <select onChange={(e)=> SetCountType(e.target.value)} className="bg-gray-200 rounded-xs p-2 border-none w-[200px]">
+          <select onChange={(e)=> setProvincia(e.target.value)} className="bg-gray-200 rounded-xs p-2 border-none w-[200px]">
           <option value="Argentina">Argentina</option>
-          <option value="Buenos Aires">Buenos Aires</option>
-          <option value="Ciudad Autonoma de Buenos Aires">Ciudad Autonoma de Buenos Aires</option>
+<option value="Buenos Aires">Buenos Aires</option>
+<option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
 <option value="Catamarca">Catamarca</option>
 <option value="Chaco">Chaco</option>
 <option value="Chubut">Chubut</option>
@@ -47,7 +49,6 @@ export default function Form() {
 <option value="Santiago del Estero">Santiago del Estero</option>
 <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
 <option value="Tucumán">Tucumán</option>
-
           </select>
         </div>
 

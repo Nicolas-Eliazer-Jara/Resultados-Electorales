@@ -1,4 +1,4 @@
-import {presidenciales2023, partidoColor} from "@/app/data/presidenciales2023"
+import {presidenciales2023, partidoColor} from "@/app/data/Generales"
 
 interface mainProp {
   provincia:string;

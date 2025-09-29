@@ -1,8 +1,9 @@
 // data/presidenciales2023.ts
 import { ProvinciaResult } from "../types/Form";
 
-export const presidenciales2023: ProvinciaResult[] = [
+export const Ballotage: ProvinciaResult[] = [
    
+  
   {
     provincia: "Santa Cruz",
     electores: 35405013 ,

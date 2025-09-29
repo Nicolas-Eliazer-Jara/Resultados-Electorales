@@ -10,6 +10,7 @@ import { useState } from 'react'
 export default function Home() {
 
   const [provincia , setProvincia] = useState<string>("Argentina");
+  const [election , setElection] =useState<string>('Generales');
   console.log(provincia);
 
 
@@ -18,9 +19,9 @@ export default function Home() {
     <>
     <Nav></Nav>
     <div className='m-10'>
-    <Form setProvincia={setProvincia}></Form>
+    <Form setElection={setElection} setProvincia={setProvincia}></Form>
     </div>
-    <Main provincia={provincia}></Main>
+    <Main election={election} provincia={provincia}></Main>
 
    <Footer></Footer>
    </>

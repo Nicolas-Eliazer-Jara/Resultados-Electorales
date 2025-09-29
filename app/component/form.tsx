@@ -2,9 +2,10 @@
 
 interface FormProps {
   setProvincia: (prov: string) => void;
+  setElection: (prov: string) => void;
 }
 
-export default function Form({setProvincia}:FormProps) {
+export default function Form({setProvincia, setElection}:FormProps) {
 
 
 
@@ -54,8 +55,9 @@ export default function Form({setProvincia}:FormProps) {
 
         <div className="flex">
           <h1 className="p-2 pr-5">Tipo Elección:</h1>
-          <select  className="bg-gray-200 rounded-xs p-2 border-none w-[200px]">
+          <select onChange={(e)=> setElection(e.target.value)}  className="bg-gray-200 rounded-xs p-2 border-none w-[200px]">
             <option value='PASO'>PASO</option>
+            <option value='Generales'>Generales</option>
           </select>
         </div>
        </div>

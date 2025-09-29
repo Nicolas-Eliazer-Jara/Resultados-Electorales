@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { PieChart, Pie, Cell, Tooltip } from "recharts";
-import { presidenciales2023 } from "@/app/data/presidenciales2023";
+import { presidenciales2023 } from "@/app/data/Generales";
 
 interface MainProp {
   provincia: string;

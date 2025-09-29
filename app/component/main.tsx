@@ -3,14 +3,31 @@ import Image from "next/image";
 import DatosElectorales from "./datosElectorales";
 import DatosMap from "./datosMap"
 import DatosVotos from "./datosVotos"
-import {presidenciales2023} from "@/app/data/presidenciales2023"
-
+import {Ballotage} from "@/app/data/Ballotage"
+import{ Generales} from "@/app/data/Generales"
+import { useState } from "react";
 interface mainProp  {
  provincia :string;
+ election:string;
 }
 
-export default function Main({provincia}:mainProp ) {
-  const datosProvincia = presidenciales2023.find(datos => datos.provincia === provincia)
+export default function Main({provincia , election}:mainProp ) {
+
+  const [data , setData] = useState([]);
+
+
+ function datass(){
+  const datosBallotage = Ballotage.find(datos => datos.provincia === provincia);
+  const datosGenerales = Generales.find(datos => datos.provincia === provincia);
+
+   if(election === 'Generales'){
+    setData(datosGenerales);
+   }else{
+    setData(datosBallotage);
+   }
+};
+
+datass()
   
   return (
     <>
@@ -25,7 +42,7 @@ export default function Main({provincia}:mainProp ) {
           <Image className="filter invert object-contain bg-" alt="votar" src={"/icons/votar.png"} width={35} height={35} ></Image>
           <div className="ml-3 ">
             <h1>Mesas computadas</h1>
-            <p>{datosProvincia?.mesasComputadas}</p>
+            <p>{data?.mesasComputadas}</p>
           </div>
         </div>
 
@@ -33,7 +50,7 @@ export default function Main({provincia}:mainProp ) {
           <Image className="filter invert object-contain bg-" alt="electores" src={"/icons/electores.png"} width={35} height={35}/>
           <div className="ml-3">
             <h1>Electores</h1>
-            <p>{datosProvincia?.electores}</p>
+            <p>{data?.electores}</p>
           </div>
         </div>
 
@@ -41,7 +58,7 @@ export default function Main({provincia}:mainProp ) {
         <Image className="filter invert object-contain " src="/icons/mano.png" alt="mano" width={35} height={35} />
         <div className="ml-3">
             <h1>Participación sobre escrutado</h1>
-            <p>{datosProvincia?.participacion}%</p>
+            <p>{data?.participacion}%</p>
           </div>
         </div>
       </div>

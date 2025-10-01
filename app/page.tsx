@@ -11,7 +11,7 @@ export default function Home() {
 
   const [provincia , setProvincia] = useState<string>("Argentina");
   const [election , setElection] =useState<string>('Generales');
-  console.log(provincia);
+
 
 
 

@@ -1,11 +1,13 @@
-import React from "react";
+'use client'
+import React, { useEffect } from "react";
 import Image from "next/image";
 import DatosElectorales from "./datosElectorales";
 import DatosMap from "./datosMap"
 import DatosVotos from "./datosVotos"
-import {Ballotage} from "@/app/data/Ballotage"
+import {Ballotage } from "@/app/data/Ballotage"
 import{ Generales} from "@/app/data/Generales"
 import { useState } from "react";
+import {ProvinciaResult} from '../types/Form'
 interface mainProp  {
  provincia :string;
  election:string;
@@ -13,27 +15,28 @@ interface mainProp  {
 
 export default function Main({provincia , election}:mainProp ) {
 
-  const [data , setData] = useState([]);
+  const [data , setData] = useState<ProvinciaResult>();
+  const [typeElection , setTypeElection] = useState<string>();
 
 
- function datass(){
-  const datosBallotage = Ballotage.find(datos => datos.provincia === provincia);
-  const datosGenerales = Generales.find(datos => datos.provincia === provincia);
-
-   if(election === 'Generales'){
-    setData(datosGenerales);
-   }else{
-    setData(datosBallotage);
-   }
-};
-
-datass()
+  useEffect(()=> {
+    const datosBallotage = Ballotage?.find(datos => datos.provincia === provincia);
+    const datosGenerales = Generales?.find(datos => datos.provincia === provincia);
   
+     if(election === 'Generales'){
+      setData(datosGenerales);
+      setTypeElection('2023 | Elecciones Generales')
+     }else{
+      setData(datosBallotage);
+      setTypeElection('2023 | Balotaje')
+     }}, [provincia , election])
+
+
   return (
     <>
-    <div className="flex justify-around mt-[30px] items-center">
+    <div className="flex justify-around mt-[30px] items-center  ">
       <div>
-        <h1 className="font-black text-[30px]" >Elecciones 2023 | PASO</h1>
+        <h1 className="font-black text-[30px]" >{`${typeElection}`}</h1>
       </div>
 
       <div className=" flex items-center ">
@@ -64,10 +67,10 @@ datass()
       </div>
       </div>
       {/**cuerpo de la pagina */}
-      <div className="mt-20 flex">
-        <div className="w-1/3 p-2 "><DatosElectorales provincia={provincia}></DatosElectorales></div>
-        <div className="w-1/3 p-2 "><DatosMap ></DatosMap></div>
-        <div className="w-1/3 p-2 "><DatosVotos provincia={provincia}></DatosVotos></div>
+      <div className="mt-20 flex   ">                                                   
+        <div className="w-1/3 mx-4 mb-10 bg-white rounded-[15px] "><DatosElectorales data={data}></DatosElectorales></div>
+        <div className="w-1/3 mb-10 bg-white rounded-[15px] "><DatosMap election={election} ></DatosMap></div>
+        <div className="w-1/3 mx-4 mb-10 bg-white rounded-[15px] "><DatosVotos data={data}></DatosVotos></div>
       
       
       

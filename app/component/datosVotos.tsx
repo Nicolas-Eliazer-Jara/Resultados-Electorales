@@ -1,36 +1,37 @@
+'use client'
+
 import { useState } from "react";
 import { PieChart, Pie, Cell, Tooltip } from "recharts";
-import { presidenciales2023 } from "@/app/data/Generales";
+import { Votacion } from "../types/Form";
 
 interface MainProp {
-  provincia: string;
+  data: Votacion | null;
 }
 
 const colores = ["#51b9b1", "#2196f3", "#9282bf", "#f7941e"];
 
-export default function DatosVotos({ provincia }: MainProp) {
+export default function DatosVotos({ data }: MainProp) {
+  console.log("la data de datosVotos", data);
+
   const [seleccionado, setSeleccionado] = useState<null | {
     nombre: string;
     valor: number;
   }>(null);
 
-  const datosProvincia = presidenciales2023.find(
-    (datos) => datos.provincia === provincia
-  );
-
-  if (!datosProvincia) return <p>No hay datos para {provincia}</p>;
+  // si no hay data, no intenta renderizar nada
+  if (!data) return <p>No hay datos</p>;
 
   const total =
-    datosProvincia.votacion.positivos +
-    datosProvincia.votacion.blancos +
-    datosProvincia.votacion.nulos +
-    datosProvincia.votacion.impugnados;
+    (data.votacion.positivos ?? 0) +
+    (data.votacion.blancos ?? 0) +
+    (data.votacion.nulos ?? 0) +
+    (data.votacion.impugnados ?? 0);
 
   const votacionData = [
-    { nombre: "Positivos", valor: datosProvincia.votacion.positivos },
-    { nombre: "Blancos", valor: datosProvincia.votacion.blancos },
-    { nombre: "Nulos", valor: datosProvincia.votacion.nulos },
-    { nombre: "Impugnados", valor: datosProvincia.votacion.impugnados },
+    { nombre: "Positivos", valor: data.votacion.positivos ?? 0 },
+    { nombre: "Blancos", valor: data.votacion.blancos ?? 0 },
+    { nombre: "Nulos", valor: data.votacion.nulos ?? 0 },
+    { nombre: "Impugnados", valor: data.votacion.impugnados ?? 0 },
   ];
 
   return (
@@ -39,24 +40,25 @@ export default function DatosVotos({ provincia }: MainProp) {
 
       <div className="relative w-[400px] h-[400px] mx-auto">
         <PieChart width={400} height={400}>
-          <Pie
-            data={votacionData}
-            dataKey="valor"
-            nameKey="nombre"
-            cx="50%"
-            cy="50%"
-            outerRadius={150}
-            innerRadius={80} // DONUT
-            label={({ percent }) => `${(percent * 100).toFixed(1)}%`} // porcentaje en los bordes
-            onClick={(data) => setSeleccionado(data)} // guardar click
-          >
-            {votacionData.map((entry, index) => (
-              <Cell
-                key={`cell-${index}`}
-                fill={colores[index % colores.length]}
-              />
-            ))}
-          </Pie>
+        <Pie
+  data={votacionData}
+  dataKey="valor"
+  nameKey="nombre"
+  cx="50%"
+  cy="50%"
+  outerRadius={150}
+  innerRadius={80} // DONUT
+  label={({ value }) => `${((value / total) * 100).toFixed(1)}%`}
+  onClick={(_, index) => setSeleccionado(votacionData[index])}
+>
+  {votacionData.map((_, index) => (
+    <Cell
+      key={`cell-${index}`}
+      fill={colores[index % colores.length]}
+    />
+  ))}
+</Pie>
+
           <Tooltip />
         </PieChart>
 
@@ -66,34 +68,31 @@ export default function DatosVotos({ provincia }: MainProp) {
             <>
               <p className="font-bold">{seleccionado.nombre}</p>
               <p>{seleccionado.valor.toLocaleString("es-AR")} votos</p>
-              <p>
-                {((seleccionado.valor / total) * 100).toFixed(1)}%
-              </p>
+              <p>{((seleccionado.valor / total) * 100).toFixed(1)}%</p>
             </>
           ) : (
             <p className="text-gray-500">Hacé click en un sector</p>
           )}
         </div>
       </div>
-      <div>
-        <div className="flex items-center">
-          <div className="bg-[#51b9b1] h-4 w-4 rounded-[100px] mr-1"></div>
-          <h1>Positivo</h1>
-        </div>
 
+      {/* Leyenda manual */}
+      <div className="mt-4 space-y-1">
         <div className="flex items-center">
-          <div className="bg-[#2196f3] h-4 w-4 rounded-[100px] mr-1"></div>
+          <div className="bg-[#51b9b1] h-4 w-4 rounded-full mr-1"></div>
+          <h1>Positivos</h1>
+        </div>
+        <div className="flex items-center">
+          <div className="bg-[#2196f3] h-4 w-4 rounded-full mr-1"></div>
           <h1>En blanco</h1>
         </div>
-
         <div className="flex items-center">
-          <div className="bg-[#9282bf] h-4 w-4 rounded-[100px] mr-1"></div>
-          <h1>Votos nulos</h1>
+          <div className="bg-[#9282bf] h-4 w-4 rounded-full mr-1"></div>
+          <h1>Nulos</h1>
         </div>
-
         <div className="flex items-center">
-          <div className="bg-[#f7941e] h-4 w-4 rounded-[100px] mr-1"></div>
-          <h1>Votos recurridos, inpugnados y comando</h1>
+          <div className="bg-[#f7941e] h-4 w-4 rounded-full mr-1"></div>
+          <h1>Recurridos / Impugnados / Comando</h1>
         </div>
       </div>
     </div>

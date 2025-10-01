@@ -1,24 +1,28 @@
-import {presidenciales2023, partidoColor} from "@/app/data/Generales"
+import { partidoColor} from "@/app/data/Generales"
+import {ProvinciaResult} from "../types/Form"
 
 interface mainProp {
-  provincia:string;
+  data: ProvinciaResult | null;
 }
 
-export default function DatosElectorales({provincia}:mainProp) {
-
-  const datosProvincia = presidenciales2023.find( datos => datos.provincia === provincia)
+export default function DatosElectorales({data}:mainProp) {
+  console.log('la data de datosElectorales')
+  console.log(data);
 
   return (
-    <div className="max-h-[600px] h-[600px] overflow-y-auto  p-4">
-       <h1>Agrupaciones políticas</h1>
-       {datosProvincia?.resultados.map((res) => (
-          <li key={res.nombre} className="space-y-1">
-            <div className="font-semibold">{res.nombre}</div>
+    <div className="max-h-[600px] h-[600px] overflow-y-auto list-none p-4">
+       <h1 className="mb-10 font-semibold">Agrupaciones políticas</h1>
+       {data?.resultados.map((res) => (
+          <li key={res.nombre} className="space-y-1 mb-10 border-b-2 border-b-gray-100">
+            <div className="flex justify-between mb-5">
+
+            <div className="">{res.nombre}</div>
             <div>{res.porcentaje.toFixed(2)}%</div>
+            </div>
             <div>{res.votos.toLocaleString("es-AR")} votos</div>
 
             {/* Barra de porcentaje */}
-            <div className="w-full bg-gray-300 h-2 rounded-xs overflow-hidden mt-1">
+            <div className="w-full bg-gray-300 h-2 rounded-xs overflow-hidden mt-1 mb-5">
               <div
                 className="h-full rounded"
                 style={{

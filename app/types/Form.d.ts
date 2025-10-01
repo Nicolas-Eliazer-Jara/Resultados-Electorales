@@ -7,6 +7,7 @@ export const FormData = {
     nombre: string;
     porcentaje: number;
     votos: number;
+ 
   }
   export interface Votacion {
     positivos: number;
@@ -24,11 +25,6 @@ export const FormData = {
     participacion: number; // en porcentaje
     mesasComputadas: number;
     resultados: PartidoResult[]; // todos los partidos con sus votos
-    votacion: Votacion[];
-    votantes:number;
-    positivos: number;
-    blancos: number;
-    nulos: number;
-    impugnados: number;
+    votacion: Votacion;
 
   }

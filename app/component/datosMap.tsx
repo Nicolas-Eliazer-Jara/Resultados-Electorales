@@ -22,7 +22,7 @@ useEffect( () => {
   
 
   return (
-    <div>
+    <div className="w-full h-full mx-auto">
       <Image alt="imagen" height={900} width={400} src={map} />
     </div>
   );

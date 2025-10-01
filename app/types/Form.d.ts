@@ -7,7 +7,8 @@ export const FormData = {
     nombre: string;
     porcentaje: number;
     votos: number;
- 
+    logo?: string;
+
   }
   export interface Votacion {
     positivos: number;

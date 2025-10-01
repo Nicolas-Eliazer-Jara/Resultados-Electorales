@@ -14,16 +14,16 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 29932,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 36.69, votos: 9645983 },
-      { nombre: "La Libertad Avanza", porcentaje: 29.99, votos: 7884336 },
-      { nombre: "Juntos por el Cambio", porcentaje: 23.84, votos: 6267152 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 6.7, votos: 1784315 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 36.69, votos: 9645983 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 29.99, votos: 7884336 },
+      { logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 23.84, votos: 6267152 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 6.7, votos: 1784315 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 2.7,
         votos: 709932,
-        logo: '/public/icons/LogoFrenteIzquierda.png'
+
       },
     ],
   },
@@ -39,16 +39,16 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 2378,
     },
     resultados: [
-      { nombre: "Juntos por el Cambio", porcentaje: 41.23, votos: 767367 },
-      { nombre: "Unión por la Patria", porcentaje: 32.28, votos: 600832 },
-      { nombre: "La Libertad Avanza", porcentaje: 19.85, votos: 369424 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 41.23, votos: 767367 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 32.28, votos: 600832 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 19.85, votos: 369424 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 3.55,
         votos: 66145,
       },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 3.09, votos: 57607 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 3.09, votos: 57607 },
     ],
   },
   {
@@ -63,12 +63,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 13295,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 4288, votos: 4224688 },
-      { nombre: "La Libertad Avanza", porcentaje: 2572, votos: 2533633 },
-      { nombre: "Juntos por el Cambio", porcentaje: 241, votos: 2374023 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 373, votos: 367457 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 4288, votos: 4224688 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 2572, votos: 2533633 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 241, votos: 2374023 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 373, votos: 367457 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 358,
         votos: 352790,
@@ -87,12 +87,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 641,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 4279, votos: 99612 },
-      { nombre: "La Libertad Avanza", porcentaje: 3204, votos: 74570 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1717, votos: 39960 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 643, votos: 14967 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 4279, votos: 99612 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3204, votos: 74570 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1717, votos: 39960 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 643, votos: 14967 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 157,
         votos: 3666,
@@ -111,12 +111,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 800,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 3355, votos: 769847 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 2901, votos: 665717 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2263, votos: 519252 },
-      { nombre: "Unión por la Patria", porcentaje: 1342, votos: 308016 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3355, votos: 769847 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 2901, votos: 665717 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2263, votos: 519252 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 1342, votos: 308016 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 139,
         votos: 31895,
@@ -135,12 +135,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 875,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 3721, votos: 260040 },
-      { nombre: "Juntos por el Cambio", porcentaje: 3212, votos: 224519 },
-      { nombre: "La Libertad Avanza", porcentaje: 2689, votos: 187916 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 274, votos: 19118 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3721, votos: 260040 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 3212, votos: 224519 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 2689, votos: 187916 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 274, votos: 19118 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 105,
         votos: 7315,
@@ -159,12 +159,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 1165,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 437, votos: 310962 },
-      { nombre: "La Libertad Avanza", porcentaje: 2777, votos: 197596 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2414, votos: 171756 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 363, votos: 25804 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 437, votos: 310962 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 2777, votos: 197596 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2414, votos: 171756 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 363, votos: 25804 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 77,
         votos: 5482,
@@ -183,12 +183,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 396,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 3502, votos: 120297 },
-      { nombre: "Unión por la Patria", porcentaje: 3226, votos: 110820 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2059, votos: 70717 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 773, votos: 26555 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3502, votos: 120297 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3226, votos: 110820 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2059, votos: 70717 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 773, votos: 26555 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 44,
         votos: 15122,
@@ -207,12 +207,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 1364,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 3326, votos: 276850 },
-      { nombre: "Juntos por el Cambio", porcentaje: 3009, votos: 250512 },
-      { nombre: "La Libertad Avanza", porcentaje: 2975, votos: 247640 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 537, votos: 44720 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3326, votos: 276850 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 3009, votos: 250512 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 2975, votos: 247640 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 537, votos: 44720 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 153,
         votos: 12760,
@@ -231,12 +231,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 265,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 5233, votos: 187229 },
-      { nombre: "La Libertad Avanza", porcentaje: 2904, votos: 103911 },
-      { nombre: "Juntos por el Cambio", porcentaje: 154, votos: 55097 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 246, votos: 8793 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 5233, votos: 187229 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 2904, votos: 103911 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 154, votos: 55097 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 246, votos: 8793 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 77,
         votos: 2772,
@@ -255,12 +255,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 334,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 3739, votos: 168921 },
-      { nombre: "Unión por la Patria", porcentaje: 3232, votos: 146027 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1994, votos: 90095 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 681, votos: 30775 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3739, votos: 168921 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3232, votos: 146027 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1994, votos: 90095 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 681, votos: 30775 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 354,
         votos: 16006,
@@ -279,12 +279,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 116,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 348, votos: 79229 },
-      { nombre: "La Libertad Avanza", porcentaje: 3353, votos: 76341 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2192, votos: 49911 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 744, votos: 16947 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 348, votos: 79229 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3353, votos: 76341 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2192, votos: 49911 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 744, votos: 16947 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 23,
         votos: 5244,
@@ -303,11 +303,11 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 111,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 411, votos: 97412 },
-      { nombre: "La Libertad Avanza", porcentaje: 3765, votos: 89236 },
-      { nombre: "Juntos por el Cambio", porcentaje: 118, votos: 27975 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 851, votos: 20179 },
-      { nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 411, votos: 97412 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3765, votos: 89236 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 118, votos: 27975 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 851, votos: 20179 },
+      { logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
          porcentaje: 92 , votos: 2189},
     ],
   },
@@ -323,11 +323,11 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 799,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 4236, votos: 469367 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2585, votos: 286475 },
-      { nombre: "Unión por la Patria", porcentaje: 2398, votos: 265740 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 433, votos: 47958 },
-      { nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 4236, votos: 469367 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2585, votos: 286475 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 2398, votos: 265740 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 433, votos: 47958 },
+      { logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
          porcentaje: 348, votos: 38572 },
     ],
   },
@@ -343,11 +343,11 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 406,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 4213, votos: 305629 },
-      { nombre: "Unión por la Patria", porcentaje: 3791, votos: 275062 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1444, votos: 104787 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 413, votos: 29966 },
-      { nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 4213, votos: 305629 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3791, votos: 275062 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1444, votos: 104787 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 413, votos: 29966 },
+      { logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
          porcentaje: 138, votos: 10036 },
     ],
   },
@@ -364,12 +364,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 429,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 3671, votos: 155394 },
-      { nombre: "Unión por la Patria", porcentaje: 3178, votos: 134510 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2054, votos: 86927 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 596, votos: 25215 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3671, votos: 155394 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3178, votos: 134510 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2054, votos: 86927 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 596, votos: 25215 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 502,
         votos: 21238,
@@ -388,12 +388,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 787,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 3785, votos: 166135 },
-      { nombre: "La Libertad Avanza", porcentaje: 3373, votos: 148037 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1814, votos: 79609 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 626, votos: 27482 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3785, votos: 166135 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3373, votos: 148037 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1814, votos: 79609 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 626, votos: 27482 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 402,
         votos: 17649,
@@ -412,12 +412,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 1516,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 404, votos: 309115 },
-      { nombre: "Unión por la Patria", porcentaje: 3761, votos: 287756 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1394, votos: 106684 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 627, votos: 47990 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 404, votos: 309115 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3761, votos: 287756 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1394, votos: 106684 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 627, votos: 47990 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 177,
         votos: 13533,
@@ -436,12 +436,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 376,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 351, votos: 155821 },
-      { nombre: "Unión por la Patria", porcentaje: 3323, votos: 147523 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2323, votos: 103118 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 618, votos: 27427 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 351, votos: 155821 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3323, votos: 147523 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2323, votos: 103118 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 618, votos: 27427 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 226,
         votos: 10025,
@@ -460,12 +460,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 339,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 4337, votos: 138251 },
-      { nombre: "Unión por la Patria", porcentaje: 272, votos: 86681 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2097, votos: 66824 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 628, votos: 20017 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 4337, votos: 138251 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 272, votos: 86681 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2097, votos: 66824 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 628, votos: 20017 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 218,
         votos: 6964,
@@ -484,12 +484,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 298,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 3788, votos: 65062 },
-      { nombre: "La Libertad Avanza", porcentaje: 363, votos: 62350 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1636, votos: 28101 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 658, votos: 11311 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3788, votos: 65062 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 363, votos: 62350 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1636, votos: 28101 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 658, votos: 11311 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 288,
         votos: 4948,
@@ -508,12 +508,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 1271,
     },
     resultados: [
-      { nombre: "La Libertad Avanza", porcentaje: 3248, votos: 657813 },
-      { nombre: "Unión por la Patria", porcentaje: 2968, votos: 601241 },
-      { nombre: "Juntos por el Cambio", porcentaje: 2689, votos: 544677 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 904, votos: 183205 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3248, votos: 657813 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 2968, votos: 601241 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 2689, votos: 544677 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 904, votos: 183205 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 19,
         votos: 38553,
@@ -532,12 +532,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 989,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 655, votos: 402863 },
-      { nombre: "La Libertad Avanza", porcentaje: 2298, votos: 141344 },
-      { nombre: "Juntos por el Cambio", porcentaje: 809, votos: 49761 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 216, votos: 13305 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 655, votos: 402863 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 2298, votos: 141344 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 809, votos: 49761 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 216, votos: 13305 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 127,
         votos: 7785,
@@ -556,10 +556,10 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 823,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 4498, votos: 471145 },
-      { nombre: "La Libertad Avanza", porcentaje: 3494, votos: 365992 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1462, votos: 153130 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 402, votos: 42086 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 4498, votos: 471145 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3494, votos: 365992 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1462, votos: 153130 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 402, votos: 42086 },
     ],
   },
   
@@ -575,12 +575,12 @@ export const Generales: ProvinciaResult[] = [
       impugnados: 159,
     },
     resultados: [
-      { nombre: "Unión por la Patria", porcentaje: 3821, votos: 40548 },
-      { nombre: "La Libertad Avanza", porcentaje: 3382, votos: 35891 },
-      { nombre: "Juntos por el Cambio", porcentaje: 1496, votos: 15875 },
-      { nombre: "Hacemos por Nuestro País", porcentaje: 915, votos: 9714 },
+      { logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png", nombre: "Unión por la Patria", porcentaje: 3821, votos: 40548 },
+      { logo: "/icons/partidos/libertad_avanza-removebg-preview.png", nombre: "La Libertad Avanza", porcentaje: 3382, votos: 35891 },
+      {logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png", nombre: "Juntos por el Cambio", porcentaje: 1496, votos: 15875 },
+      { logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png", nombre: "Hacemos por Nuestro País", porcentaje: 915, votos: 9714 },
       {
-        nombre: "Frente de Izquierda y de Trabajadores - Unidad",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png", nombre: "Frente de Izquierda y de Trabajadores - Unidad",
         
         porcentaje: 386,
         votos: 4091,
@@ -595,6 +595,14 @@ export const partidoColor: Record<string, string> = {
   "Hacemos por Nuestro País": "#0b5396",
   "Frente de Izquierda y de Trabajadores - Unidad":
    "#fc2b35",
+};
+
+export const partidoColorClaro :Record<string, string> = {
+    "La Libertad Avanza": "#ba9ddf",
+    "Unión por la Patria": "#80cdf0",
+    "Juntos por el Cambio": "#ffee80",
+    "Hacemos por Nuestro País": "#85a9cb",
+    "Frente de Izquierda y de Trabajadores - Unidad": "#fe959a",
 };
 
 export const TipoEleccion  = {

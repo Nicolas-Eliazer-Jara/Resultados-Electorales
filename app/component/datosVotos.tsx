@@ -33,7 +33,7 @@ export default function DatosVotos({ data }: MainProp) {
   ];
 
   return (
-    <div className="max-h-[600px] h-[300px] overflow-y-auto p-4">
+    <div className="max-h-[600px]  h-[450px] overflow-y-auto p-4">
       <h1 className="text-lg font-bold ">Resumen de votos</h1>
 
       <div className="relative w-[200px] h-[250px] mx-auto">
@@ -60,18 +60,7 @@ export default function DatosVotos({ data }: MainProp) {
           <Tooltip />
         </PieChart>
 
-        {/* Centro del círculo */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-          {seleccionado ? (
-            <>
-              <p className="font-bold">{seleccionado.nombre}</p>
-              <p>{seleccionado.valor.toLocaleString("es-AR")} votos</p>
-              <p>{((seleccionado.valor / total) * 100).toFixed(1)}%</p>
-            </>
-          ) : (
-            <p className="text-gray-500">Hacé click en un sector</p>
-          )}
-        </div>
+        
       </div>
 
       {/* Leyenda manual */}

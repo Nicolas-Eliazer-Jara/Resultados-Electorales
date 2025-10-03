@@ -68,7 +68,7 @@ export default function Main({provincia , election}:mainProp ) {
       </div>
       {/**cuerpo de la pagina */}
       <div className="mt-20 flex   ">                                                   
-        <div className="w-1/2 ml-4 mr-2 mb-10 bg-white rounded-[15px] "><DatosElectorales data={data}></DatosElectorales></div>
+        <div className="w-1/2 ml-4 mr-2 mb-10 bg-white rounded-l-[15px] "><DatosElectorales data={data}></DatosElectorales></div>
         <div className="w-1/2 ml-2 mr-4 mb-10 bg-white rounded-[15px] "><DatosMap election={election} ></DatosMap></div>      
       </div>
     </>

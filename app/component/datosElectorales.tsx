@@ -12,7 +12,7 @@ export default function DatosElectorales({data}:mainProp) {
   console.log(data);
 
   return (
-    <div className="max-h-[600px] h-[600px] overflow-y-auto list-none p-4">
+    <div className="max-h-[600px] h-[600px] overflow-y-auto list-none p-4 custom-scroll">
        <h1 className="mb-10 font-semibold">Agrupaciones políticas</h1>
        {data?.resultados.map((res) => (
   <li

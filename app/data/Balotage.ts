@@ -1,7 +1,6 @@
 // data/Ballotage.ts
-import { ProvinciaResult } from "../types/Form";
-
-export const Ballotage: ProvinciaResult[] = [
+import { ProvinciaResult , ResulDistritos} from "../types/Form";
+export const Balotage: ProvinciaResult[] = [
   
   {
     provincia: "Argentina",
@@ -413,3 +412,10 @@ export const partidoColorClaro :Record<string, string> = {
   "La Libertad Avanza": "#ba9ddf",
   "Unión por la Patria": "#80cdf0",
 };
+
+export const DistritosBalotage : ResulDistritos = {
+  resulDistritos:[
+    {color:"#80cdf0" , distrito: "Provincias ganadas por Unión por la Patria (4)"},
+    {color:"#ba9ddf" , distrito:"Provincias ganadas por La Libertad Avanza (20)"},
+  ]
+}

@@ -1,4 +1,4 @@
-import { ProvinciaResult } from "../types/Form";
+import { ProvinciaResult , ResulDistritos} from "../types/Form";
 
 export const Generales: ProvinciaResult[] = [
   
@@ -605,6 +605,10 @@ export const partidoColorClaro :Record<string, string> = {
     "Frente de Izquierda y de Trabajadores - Unidad": "#fe959a",
 };
 
-export const TipoEleccion  = {
-  eleccion:"Elecciones generales (1.ª vuelta)"
+export const DistritosGenerales : ResulDistritos = {
+  resulDistritos:[
+    {color:"#80cdf0" , distrito: "Provincias ganadas por Unión por la Patria (13)"},
+    {color:"#ba9ddf" , distrito:"Provincias ganadas por La Libertad Avanza (10)"},
+    {color:"#ffee80" , distrito: "Provincias ganadas por Juntos por el Cambio (1)"}
+  ]
 }

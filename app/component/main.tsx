@@ -3,11 +3,13 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import DatosElectorales from "./datosElectorales";
 import DatosMap from "./datosMap"
-import DatosVotos from "./datosVotos"
-import {Ballotage } from "@/app/data/Ballotage"
+import {Balotage } from "@/app/data/Balotage"
 import{ Generales} from "@/app/data/Generales"
 import { useState } from "react";
 import {ProvinciaResult} from '../types/Form'
+import InfoEleccion from "./infoEleccion"
+import InfoCandidatos from "./infoCandidatos"
+
 interface mainProp  {
  provincia :string;
  election:string;
@@ -20,15 +22,15 @@ export default function Main({provincia , election}:mainProp ) {
 
 
   useEffect(()=> {
-    const datosBallotage = Ballotage?.find(datos => datos.provincia === provincia);
+    const datosBallotage = Balotage?.find(datos => datos.provincia === provincia);
     const datosGenerales = Generales?.find(datos => datos.provincia === provincia);
   
      if(election === 'Generales'){
       setData(datosGenerales);
-      setTypeElection('2023 | Elecciones Generales')
+      setTypeElection('22 de Octubre 2023 | Elecciones Generales')
      }else{
       setData(datosBallotage);
-      setTypeElection('2023 | Balotaje')
+      setTypeElection('19 de Noviembre 2023 | Balotaje')
      }}, [provincia , election])
 
 
@@ -36,7 +38,7 @@ export default function Main({provincia , election}:mainProp ) {
     <>
     <div className="flex justify-around mt-[30px] items-center  ">
       <div>
-        <h1 className="font-black text-[30px]" >{`${typeElection}`}</h1>
+        <h1 className="font-black ml-5 text-[28px]" >{`${typeElection}`}</h1>
       </div>
 
       <div className=" flex items-center ">
@@ -66,10 +68,25 @@ export default function Main({provincia , election}:mainProp ) {
         </div>
       </div>
       </div>
+
+      <div>
+        
+      </div>
       {/**cuerpo de la pagina */}
+
+      <div>
+<InfoEleccion election={election} ></InfoEleccion>
+      </div>
+
       <div className="mt-20 flex   ">                                                   
         <div className="w-1/2 ml-4 mr-2 mb-10 bg-white rounded-l-[15px] "><DatosElectorales data={data}></DatosElectorales></div>
         <div className="w-1/2 ml-2 mr-4 mb-10 bg-white rounded-[15px] "><DatosMap election={election} ></DatosMap></div>      
+      </div>
+      <div>
+        <div>
+          <InfoCandidatos></InfoCandidatos>
+        </div>
+          
       </div>
     </>
   );

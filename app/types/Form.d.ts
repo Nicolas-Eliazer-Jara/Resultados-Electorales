@@ -16,7 +16,6 @@ export const FormData = {
     nulos: number;
     impugnados: number;
   }
-  
     
 
   
@@ -29,3 +28,23 @@ export const FormData = {
     votacion: Votacion;
 
   }
+
+  export interface Distritos {
+    distrito:string;
+    color:string;
+  }
+  export interface ResulDistritos {
+    resulDistritos:Distritos[];
+  }
+
+  export interface Candidato {
+    name: string;
+    photo: string;
+    description: string;
+  }
+  
+  export interface resulCandidato {
+    reglas: string;
+    candidatos: Candidato[];
+  }
+  

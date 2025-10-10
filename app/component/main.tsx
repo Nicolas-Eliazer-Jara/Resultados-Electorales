@@ -20,6 +20,8 @@ export default function Main({provincia , election}:mainProp ) {
   const [data , setData] = useState<ProvinciaResult>();
   const [typeElection , setTypeElection] = useState<string>();
 
+ 
+
 
   useEffect(()=> {
     const datosBallotage = Balotage?.find(datos => datos.provincia === provincia);
@@ -27,12 +29,17 @@ export default function Main({provincia , election}:mainProp ) {
   
      if(election === 'Generales'){
       setData(datosGenerales);
-      setTypeElection('22 de Octubre 2023 | Elecciones Generales')
+      setTypeElection('22 de Octubre 2023 | Generales')
      }else{
       setData(datosBallotage);
       setTypeElection('19 de Noviembre 2023 | Balotaje')
      }}, [provincia , election])
 
+     const formateado = (data?.participacion / 100).toLocaleString("es-AR", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+    
 
   return (
     <>
@@ -47,7 +54,7 @@ export default function Main({provincia , election}:mainProp ) {
           <Image className="filter invert object-contain bg-" alt="votar" src={"/icons/votar.png"} width={35} height={35} ></Image>
           <div className="ml-3 ">
             <h1>Mesas computadas</h1>
-            <p>{data?.mesasComputadas}</p>
+            <p>{data?.mesasComputadas.toLocaleString("es-AR")}</p>
           </div>
         </div>
 
@@ -55,7 +62,7 @@ export default function Main({provincia , election}:mainProp ) {
           <Image className="filter invert object-contain bg-" alt="electores" src={"/icons/electores.png"} width={35} height={35}/>
           <div className="ml-3">
             <h1>Electores</h1>
-            <p>{data?.electores}</p>
+            <p>{data?.electores.toLocaleString("es-AR")}</p>
           </div>
         </div>
 
@@ -63,7 +70,7 @@ export default function Main({provincia , election}:mainProp ) {
         <Image className="filter invert object-contain " src="/icons/mano.png" alt="mano" width={35} height={35} />
         <div className="ml-3">
             <h1>Participación sobre escrutado</h1>
-            <p>{data?.participacion}%</p>
+            <p>{formateado}%</p>
           </div>
         </div>
       </div>

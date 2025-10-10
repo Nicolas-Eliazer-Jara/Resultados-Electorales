@@ -8,33 +8,38 @@ export const Candidatos = {
       {
         name: "Javier Milei",
         photo: "/candidatos/Milei.jpg",
+        logo: "/icons/partidos/libertad_avanza-removebg-preview.png",
         description:
           "Economista y diputado nacional por la Ciudad de Buenos Aires, conocido por su postura liberal radical en economía y su discurso antiestatista. Líder del partido La Libertad Avanza.",
       },
       {
         name: "Sergio Massa",
         photo: "/candidatos/Massa.jpg",
+        logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png",
         description:
           "Exministro y exdiputado nacional, líder del Frente de Todos, con experiencia en la administración pública y enfoque en políticas económicas y sociales del gobierno.",
       },
       {
-        name: "Juan Schiaretti",
-        photo: "/candidatos/Schiaretti.jpg",
-        description:
-          "Gobernador de Córdoba, líder del partido Hacemos por Nuestro País, con perfil federal y experiencia en gestión provincial.",
-      },
-      {
         name: "Patricia Bullrich",
         photo: "/candidatos/Bullrich.jpg",
+        logo: "/icons/partidos/Juntos_por_el_Cambio-removebg-preview.png",
         description:
           "Exministra de Seguridad y presidenta del PRO, candidata de Juntos por el Cambio, enfocada en seguridad, orden público y políticas de centro-derecha.",
       },
       {
         name: "Myriam Bregman",
         photo: "/candidatos/Bregman.jpg",
+        logo: "/icons/partidos/LogoFrenteIzquierda.png",
         description:
           "Diputada nacional del Frente de Izquierda y de los Trabajadores – Unidad, abogada y activista, con enfoque en políticas de izquierda y derechos sociales.",
       },
+      {
+        name: "Juan Schiaretti",
+        photo: "/candidatos/Schiaretti.jpg",
+        logo: "/icons/partidos/Hacemos_por_Nuestro_País-removebg-preview.png",
+        description:
+          "Gobernador de Córdoba, líder del partido Hacemos por Nuestro País, con perfil federal y experiencia en gestión provincial.",
+      }
     ],
   },
 
@@ -57,3 +62,4 @@ export const Candidatos = {
     ],
   },
 };
+

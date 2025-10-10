@@ -41,6 +41,7 @@ export const FormData = {
     name: string;
     photo: string;
     description: string;
+    logo:string;
   }
   
   export interface resulCandidato {

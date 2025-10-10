@@ -57,7 +57,7 @@ export default function Form({setProvincia, setElection}:FormProps) {
           <h1 className="p-2 pr-5">Tipo Elección:</h1>
           <select onChange={(e)=> setElection(e.target.value)}  className="bg-gray-200 rounded-xs p-2 border-none w-[200px]">
             <option value='Generales'>Generales</option>
-            <option value='Ballotage'>Ballotage</option>
+            <option value='Balotage'>Balotage</option>
           </select>
         </div>
        </div>

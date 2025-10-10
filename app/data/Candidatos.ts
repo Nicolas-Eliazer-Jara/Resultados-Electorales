@@ -31,7 +31,7 @@ export const Candidatos = {
       },
       {
         name: "Myriam Bregman",
-        photo: "/candidatos/Bregman.png",
+        photo: "/candidatos/Bregman.jpg",
         description:
           "Diputada nacional del Frente de Izquierda y de los Trabajadores – Unidad, abogada y activista, con enfoque en políticas de izquierda y derechos sociales.",
       },

@@ -4,9 +4,9 @@ export const Balotage: ProvinciaResult[] = [
   
   {
     provincia: "Argentina",
-    electores: 35193985,
-    participacion: 76.33,
-    mesasComputadas: 103772,
+    electores: 35410080,
+    participacion: 7653,
+    mesasComputadas: 104520,
      votacion: {
       positivos: 1806597,
       blancos: 54256,

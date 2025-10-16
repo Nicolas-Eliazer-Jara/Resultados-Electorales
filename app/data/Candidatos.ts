@@ -44,22 +44,41 @@ export const Candidatos = {
   },
 
   balotage: {
+    datos: "Javier Milei fue elegido Presidente de la Nación Argentina tras imponerse en el balotaje del 19 de noviembre de 2023, obteniendo una diferencia de 11 puntos sobre Sergio Massa. Asumió oficialmente el cargo el 10 de diciembre de 2023, iniciando su mandato presidencial que se extenderá hasta el 10 de diciembre de 2027. Su gobierno representa a la coalición La Libertad Avanza, caracterizada por su enfoque liberal en lo económico y su postura de reducción del tamaño del Estado. Su Vicepresidenta es Victoria Villarruel.",
+    video:"https://www.youtube.com/watch?v=YZojfjNKdFI",
+    
     reglas:
       "El balotaje presidencial de Argentina 2023 se llevó a cabo el 19 de noviembre, al no haber un ganador en primera vuelta. Fue la segunda vez en la historia argentina que se recurrió a esta instancia para definir la presidencia. En esta elección se enfrentaron Javier Milei (La Libertad Avanza) y Sergio Massa (Unión por la Patria). Milei resultó vencedor con una diferencia de 11 puntos, convirtiéndose en el nuevo Presidente de la Nación.",
     candidatos: [
       {
-        name: "Javier Milei | La Libertad Avanza",
+        name: "Javier Milei",
         photo: "/candidatos/Milei.jpg",
+        logo: "/icons/partidos/libertad_avanza-removebg-preview.png",
         description:
           "Economista y diputado nacional por la Ciudad de Buenos Aires, conocido por su postura liberal radical en economía y su discurso antiestatista. Líder del partido La Libertad Avanza.",
       },
       {
         name: "Sergio Massa",
         photo: "/candidatos/Massa.jpg",
+        logo: "/icons/partidos/Unión_por_la_Patria-removebg-preview.png",
         description:
           "Exministro y exdiputado nacional, líder del Frente de Todos, con experiencia en la administración pública y enfoque en políticas económicas y sociales del gobierno.",
       },
     ],
+    ganador:[
+      {
+        name: "Javier Milei",
+        photo: "/candidatos/Milei.jpg",
+        description:
+          "Presidente de la Nación Argentina",
+      },
+      {
+        name: "Victoria Villarruel",
+        photo: "/candidatos/Villarruel.jpg",
+        description:
+          "Vicepresidenta de la Nación Argentina",
+      },
+    ]
   },
 };
 

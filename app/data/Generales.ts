@@ -4,9 +4,9 @@ export const Generales: ProvinciaResult[] = [
   
   {
     provincia: "Argentina",
-    electores: 35410080,
-    participacion: 7653,
-    mesasComputadas: 10452,
+    electores: 35193985,
+    participacion: 7633,
+    mesasComputadas: 103772,
     votacion: {
       positivos: 27100675,
       blancos: 554161,

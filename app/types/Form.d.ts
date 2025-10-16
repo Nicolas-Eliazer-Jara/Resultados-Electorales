@@ -42,10 +42,19 @@ export const FormData = {
     photo: string;
     description: string;
     logo:string;
+    datos:string;
+    video:string;
+  }
+  export interface Ganador {
+    name: string;
+    photo: string;
+    description: string;
+
   }
   
   export interface resulCandidato {
     reglas: string;
     candidatos: Candidato[];
+    ganador:Ganador[];
   }
   

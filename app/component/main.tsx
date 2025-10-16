@@ -91,7 +91,7 @@ export default function Main({provincia , election}:mainProp ) {
       </div>
       <div>
         <div>
-          <InfoCandidatos></InfoCandidatos>
+          <InfoCandidatos election={election}></InfoCandidatos>
         </div>
           
       </div>

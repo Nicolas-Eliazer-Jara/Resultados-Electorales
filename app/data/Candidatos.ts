@@ -68,7 +68,7 @@ export const Candidatos = {
     ganador:[
       {
         name: "Javier Milei",
-        photo: "/candidatos/Milei.jpg",
+        photo: "/candidatos/Milei-Presidente.jpg",
         description:
           "Presidente de la Nación Argentina",
       },

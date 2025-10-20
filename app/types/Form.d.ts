@@ -48,8 +48,9 @@ export const FormData = {
   export interface Ganador {
     name: string;
     photo: string;
+    logo:string;
     description: string;
-
+    video:string;
   }
   
   export interface resulCandidato {

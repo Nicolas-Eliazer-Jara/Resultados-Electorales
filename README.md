@@ -48,7 +48,7 @@ Aplicación web desarrollada con **Next.js**, **TypeScript** y **TailwindCSS** q
 - Iniciá el servidor de desarrollo:
 
 - npm run dev
-
+```
 ---
 
 ## 📁 Estructura del proyecto

@@ -53,7 +53,7 @@ Aplicación web desarrollada con **Next.js**, **TypeScript** y **TailwindCSS** q
 
 ## 📁 Estructura del proyecto
 
-
+```bash
 /app
 ├── component
 │   ├── datosElectorales.tsx
@@ -70,6 +70,7 @@ Aplicación web desarrollada con **Next.js**, **TypeScript** y **TailwindCSS** q
 │   ├── Candidatos.ts
 │   └── Generales.ts
 
+```
 ---
 
 ## 🙌 Autor

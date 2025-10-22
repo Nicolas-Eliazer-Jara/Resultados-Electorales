@@ -37,19 +37,22 @@ Aplicación web desarrollada con **Next.js**, **TypeScript** y **TailwindCSS** q
 1. Cloná el repositorio:
 
 ```bash
-git clone https://github.com/Nicolas-Eliazer-Jara/resultados-electorales.git
-cd resultados-electorales
+- git clone https://github.com/Nicolas-Eliazer-Jara/resultados-electorales.git
+- cd resultados-electorales
 
-Instalá las dependencias:
+- Instalá las dependencias:
 
-npm install
+- npm install
 
 
-Iniciá el servidor de desarrollo:
+- Iniciá el servidor de desarrollo:
 
-npm run dev
+- npm run dev
 
-📁 Estructura del proyecto
+---
+
+## 📁 Estructura del proyecto
+
 
 /app
 ├── component
@@ -67,6 +70,8 @@ npm run dev
 │   ├── Candidatos.ts
 │   └── Generales.ts
 
-🙌 Autor
+---
 
-Hecho con 💻 por Nicolás Eliazer Jara – 2025
+## 🙌 Autor
+
+- Hecho con 💻 por Nicolás Eliazer Jara – 2025

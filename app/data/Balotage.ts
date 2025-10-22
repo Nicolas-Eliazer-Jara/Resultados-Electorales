@@ -1,5 +1,5 @@
 // data/Ballotage.ts
-import { ProvinciaResult , ResulDistritos} from "../types/Form";
+import { ProvinciaResult , ResulDistritos} from "../types/candidatos";
 export const Balotage: ProvinciaResult[] = [
   
   {

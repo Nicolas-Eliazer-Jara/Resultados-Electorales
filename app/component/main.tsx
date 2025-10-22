@@ -5,7 +5,7 @@ import DatosElectorales from "./datosElectorales";
 import DatosMap from "./datosMap";
 import { Balotage } from "@/app/data/Balotage";
 import { Generales } from "@/app/data/Generales";
-import { ProvinciaResult } from "../types/Form";
+import { ProvinciaResult } from "../types/candidatos";
 import InfoEleccion from "./infoEleccion";
 import InfoCandidatos from "./infoCandidatos";
 
@@ -31,10 +31,14 @@ export default function Main({ provincia, election }: mainProp) {
     }
   }, [provincia, election]);
 
-  const formateado = (data?.participacion / 100).toLocaleString("es-AR", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  });
+  const formateado =
+  data?.participacion !== undefined
+    ? (data.participacion / 100).toLocaleString("es-AR", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      })
+    : "0.00";
+
 
   return (
     <>

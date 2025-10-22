@@ -1,5 +1,3 @@
-import { resulCandidato } from "../types/Form";
-
 export const Candidatos = {
   generales: {
     reglas:

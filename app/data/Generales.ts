@@ -1,4 +1,4 @@
-import { ProvinciaResult , ResulDistritos} from "../types/Form";
+import { ProvinciaResult , ResulDistritos} from "../types/candidatos";
 
 export const Generales: ProvinciaResult[] = [
   

@@ -4,7 +4,7 @@ import balotag from "@/public/map/primaria.png";
 import General from "@/public/map/generales.png";
 import { DistritosGenerales } from "../data/Generales";
 import { DistritosBalotage } from "../data/Balotage";
-import { ResulDistritos } from "../types/Form";
+import { ResulDistritos } from "../types/candidatos";
 
 interface Election {
   election: string;

@@ -10,15 +10,15 @@ export default function InfoCandidatos({ election }: mainProp) {
   return (
     <div className="px-4 mb-10">
       {/* Título principal */}
-      <h1 className="text-center mb-8 text-2xl font-semibold border-b border-[#242c4f] pb-2">
+      <h1 className="text-center mb-8 sm-text-[15px] md:text-[20px] lg:text-[24px] font-semibold border-b border-[#242c4f] pb-2">
         Candidatos Presidenciales
       </h1>
 
       {/* Lista de candidatos (funciona bien con 3 o 5) */}
       <div
-        className="grid gap-7 justify-items-center"
+        className="grid gap-7 justify-items-center "
         style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
         }}
       >
         {data.candidatos.map((candidato) => (
@@ -59,13 +59,13 @@ export default function InfoCandidatos({ election }: mainProp) {
           <div
             className="grid gap-8 justify-items-center"
             style={{
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
             }}
           >
             {data.ganador.map((ganador) => (
               <div
                 key={ganador.name}
-                className="w-full max-w-[350px] max-h-[390px]  bg-white shadow-lg rounded-xl overflow-hidden"
+                className="w-full max-w-[350px] h-auto  bg-white shadow-lg rounded-xl overflow-hidden"
               >
                 <div className="bg-[#242c4f] text-white text-center pt-5">
                   <img

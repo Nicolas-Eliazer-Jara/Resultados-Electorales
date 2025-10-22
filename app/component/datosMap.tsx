@@ -27,12 +27,12 @@ export default function DatosMap({ election }: Election) {
   return (
     <div className="h-[800px]  p-4 " >
       <h1 className="mb-10 font-semibold">Resultados por distritos</h1>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
 
-      <div className="w-2/3">
+      <div className="md:w-2/3 w-auto">
         <Image alt="imagen" height={900} width={400} src={map} />
       </div>
-      <div className="w-1/3">
+      <div className="md:w-1/3 w-auto">
         <div>
           {data.resulDistritos.map((distrito, i) => (
             <div key={i} className="flex items-center mb-2">

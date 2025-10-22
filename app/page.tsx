@@ -17,13 +17,15 @@ export default function Home() {
 
   return (
     <>
+    <div className="w-full mx-auto">
     <Nav></Nav>
     <div className='m-10'>
     <Form setElection={setElection} setProvincia={setProvincia}></Form>
     </div>
     <Main election={election} provincia={provincia}></Main>
 
-   <Footer></Footer>
+    <Footer></Footer>
+    </div>
    </>
   );
 }

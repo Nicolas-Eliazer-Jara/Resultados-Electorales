@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🇦🇷 Resultados Electorales Argentina 2023
 
-## Getting Started
+Aplicación web desarrollada con **Next.js**, **TypeScript** y **TailwindCSS** que muestra los resultados electorales de Argentina por provincia y tipo de elección (Generales y Balotaje), con mapas interactivos y detalles de candidatos.
 
-First, run the development server:
+---
+
+## 🚀 Tecnologías utilizadas
+
+- [Next.js](https://nextjs.org/) – Framework React con SSR y rutas automáticas.
+- [React](https://reactjs.org/) – Librería principal para la UI.
+- [TypeScript](https://www.typescriptlang.org/) – Tipado estático para mayor seguridad.
+- [Tailwind CSS](https://tailwindcss.com/) – Estilos rápidos y personalizables.
+- [Recharts](https://recharts.org/) – Gráficos circulares para resultados de votación.
+- Datos electorales simulados/locales en archivos JSON (`Generales.ts`, `Balotage.ts`).
+
+---
+
+## 📸 Vista previa
+
+![Vista previa](./public/demo.png)
+
+---
+
+## 📦 Funcionalidades
+
+- 📊 Mostrar resultados por **provincia** y **tipo de elección**.
+- 🗳 Visualización de **mesas computadas, electores y participación**.
+- 🏛 Mapas interactivos de las provincias con **Leaflet**.
+- 🎯 Detalle de **candidatos presidenciales**, fotos, logos y descripción.
+- 🟡 Gráficos circulares de votos (positivos, blancos, nulos e impugnados).
+- 📱 Interfaz 100% **responsive**, adaptada a móviles, tablets y desktops.
+
+---
+
+## 🛠️ Instalación
+
+1. Cloná el repositorio:
 
 ```bash
+git clone https://github.com/Nicolas-Eliazer-Jara/resultados-electorales.git
+cd resultados-electorales
+
+Instalá las dependencias:
+
+npm install
+
+
+Iniciá el servidor de desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Estructura del proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+/app
+├── component
+│   ├── datosElectorales.tsx
+│   ├── datosMap.tsx
+│   ├── datosVotos.tsx
+│   ├── footer.tsx
+│   ├── form.tsx
+│   ├── infoCandidatos.tsx
+│   ├── infoEleccion.tsx
+│   ├── main.tsx
+│   └── nav.tsx
+├── data
+│   ├── Balotage.ts
+│   ├── Candidatos.ts
+│   └── Generales.ts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🙌 Autor
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hecho con 💻 por Nicolás Eliazer Jara – 2025
